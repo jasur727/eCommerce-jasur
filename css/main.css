@@ -1228,7 +1228,7 @@ img {
   background-color: #46760A;
   border: 1px solid #46760A;
   border-radius: 12px;
-  margin-left: 58px;
+  margin-left: auto;
   white-space: nowrap;
   cursor: pointer;
   -webkit-transition: all 0.5s ease;
@@ -1355,6 +1355,8 @@ img {
 
 .form-wrapper__button {
   display: none;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 
 .site-logo {
