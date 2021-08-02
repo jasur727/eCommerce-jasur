@@ -71,6 +71,7 @@
 
     &:not(:nth-child(odd)) {
       margin-left: 0;
+      justify-content: space-between;
     }
   }
 

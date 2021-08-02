@@ -1037,6 +1037,9 @@ img {
   }
   .prodact-list:not(:nth-child(odd)) {
     margin-left: 0;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .prodact-content__list {
     -webkit-box-orient: horizontal;
